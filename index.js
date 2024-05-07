@@ -46,7 +46,7 @@ app.put('/api/osoby/:imie', async (req, res) => {
     
 })
 
-mongoose.connect("mongodb+srv://rybkowskiolafpraktyki:kbN4xRq47hm8vjUp@cluster0.iq1y8vb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+mongoose.connect("(link z strony mongo)")
 .then(() => {
     console.log("Połączono z bazą")
     app.listen(3001, () => {
